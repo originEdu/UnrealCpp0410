@@ -6,6 +6,7 @@
 #include "GameFramework/PlayerController.h"
 #include "MyPlayerController.generated.h"
 
+
 /**
  * 
  */
@@ -13,5 +14,7 @@ UCLASS()
 class UNREALCPP0410_API AMyPlayerController : public APlayerController
 {
 	GENERATED_BODY()
-	
+public:
+	AMyPlayerController();
+
 };

@@ -11,7 +11,6 @@ public class UnrealCpp0410Target : TargetRules
 		DefaultBuildSettings = BuildSettingsVersion.Latest;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
 
-
         ExtraModuleNames.AddRange( new string[] { "UnrealCpp0410" } );
 	}
 }
